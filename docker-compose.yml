@@ -5,7 +5,7 @@ services:
   # This is our nodejs app built using the Dockerfile
   app:
     # The name of our node app container
-    container_name: docker_nodejs_app
+    container_name: lib-avinash 
     # Restarts our node app whenever it fails
     restart: always
     # Builds the node app docker container from the local -
